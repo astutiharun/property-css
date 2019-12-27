@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img2 {
+  float: right;
+}
+</style>
+
+</head>
+<body>
+
+<p>Hello Everybody</p>
+
+<div>
+  <h2>Without Clearfix</h2>
+  <img class="img1" src="summer.jpg" alt="summer" width="170" height="170">
+  Jangan pernah berhenti ketika kamu masih belum ingin menyerah.
+</div>
+
+<p style="clear:right">Jangan pernah berhenti ketika kamu masih belum ingin menyerah.</p>
+
+<div class="clearfix">
+  <h2>With Clearfix</h2>
+  <img class="img2" src="summer.jpg" alt="summer" width="170" height="170">
+  Jangan pernah berhenti ketika kamu masih belum ingin menyerah.
+</div>
+
+<h4><font style="color: pink">By...Andrian Djaguna@2019</font></h4>
+</body>
+</html>
